@@ -16,10 +16,10 @@ also holds data on when the log was added, the weight, and a description. Below 
 
   To start, I felt that the application needed a few UI enhancements. I've also added in a few new buttons and features to the user interface as placeholders for future code that will be implemented into the project. The first enhancement is in the login activity of the application. Here, I've adjusted the login options for a user. I've added a sign in with Google button and a sign in with Facebook button. While these are not yet functional, they will serve as UI placeholders for the Firebase OAuth functionality that will be added during my new database implementation later.
 
-<img style="text-align:center;" src="https://i.postimg.cc/P5JW3j0G/Login-screen.png" width="500" alt="login screen"/>
+<img style="text-align:center;" src="https://i.postimg.cc/P5JW3j0G/Login-screen.png" width="300" alt="login screen"/>
 
   The next UI design update was in the MainActivity file where each data card with the note title and creation date is displayed. This was a more minor change as the card was given rounded edges and more padding. I noticed the cards seemed a bit too close together in the previous version and giving them smoothed edges and padding makes differentiating each card in the list view a bit easier. In additional to interface updates, I’ve also allowed the Title of the note card to read any character or string that is entered. This was done by unrestricting the XML file of this activities editText value. Previously this was implemented to only allow integers or double values.
   
-<img style="text-align:center;" src="https://i.postimg.cc/HxwXcs8M/Card-Views.png" width="500" alt="card views"/>
+<img style="text-align:center;" src="https://i.postimg.cc/HxwXcs8M/Card-Views.png" width="300" alt="card views"/>
 
   Next, I've made a few changes to the structure of my code. I've removed the notification button and functionality since I am transitioning the functionality towards a journaling application. A notification system for this type of app doesn’t seem beneficial to the end user. I’ve also gone ahead and restructured and refactored all variable names in the code to fit the final Journal app objective.
