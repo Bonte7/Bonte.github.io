@@ -16,7 +16,7 @@ Based on the code review, I decided to take this project into a different direct
 
 To start, I felt that the application needed a few UI enhancements. I've also added in a few new buttons and features to the user interface as placeholders for future code that will be implemented into the project. The first enhancement is in the login activity of the application. Here, I've adjusted the login options for a user. I've added a sign in with Google button and a sign in with Facebook button. While these are not yet functional, they will serve as UI placeholders for the Firebase OAuth functionality that will be added during my new database implementation later.
 
-<img style="text-align:center; display: block;" src="https://i.postimg.cc/P5JW3j0G/Login-screen.png" width="300" alt="login screen"/>
+<p style="text-align:center"><img style="text-align:center; display: block;" src="https://i.postimg.cc/P5JW3j0G/Login-screen.png" width="300" alt="login screen"/></p>
 
 The next UI design update was in the MainActivity file where each data card with the note title and creation date is displayed. This was a more minor change as the card was given rounded edges and more padding. I noticed the cards seemed a bit too close together in the previous version and giving them smoothed edges and padding makes differentiating each card in the list view a bit easier. In additional to interface updates, I’ve also allowed the Title of the note card to read any character or string that is entered. This was done by unrestricting the XML file of this activities editText value. Previously this was implemented to only allow integers or double values.
   
