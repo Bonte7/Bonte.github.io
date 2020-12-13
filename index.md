@@ -1,4 +1,4 @@
-<b><p style="text-align:center;">ePortfolio / My Journal Application</p></b>
+<p style="text-align:center;">ePortfolio / My Journal Application</p>
 
 **Code Review**
 
@@ -10,7 +10,7 @@ also holds data on when the log was added, the weight, and a description. Below 
   Based on the code review, I decided to take this project into a different direction. I've worked towards converting it to a full journal logging application as most of the functionality was already there. Not only that, but I wanted to implement a remote database to make the application more scalable and, in the future, bring this Android application over to iOS with the same database implementation. 
 
 
-<b><p style="text-align:center;">Artifacts</p></b>
+<p style="text-align:center;">Artifacts</p>
 
 **Software Design and Engineering**
 
