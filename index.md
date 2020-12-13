@@ -1,9 +1,18 @@
+<p style="text-align:center;"><b>Self Assessment</b></p>
+
+Throughout this project and the CS Program at SNHU, I've learned quite a lot. This Capstone class has really made me realize how much I've absorbed from my previous courses and expereince as it all sort of came together to help me achieve my goal of creating new features and updating existing functionality in my Capstone application artifacts. Throughout the CS Program I've learned database implementation, best practices, the development process, several different programming languages, and most importantly, how to think critically as a developer. 
+
+In creating this ePortoflio and working through each artificat upgrade in my Journal application, I've had the opportunity to showcase some of my stegrnths and abilities that I have found while in the CS Program. First, my knowledge of code structure and design helped in creating and updating a new user interface to make sure the app is simple and easy to use. I've also completely restructured the files in the application to make it easier for another developer to follow and understand what each file and class is meant to accomplish. This will make future collaboration easier to start once I upload the project to Github. 
+
+Throughout the CS Program, I have learned about several different database styles such as Mongo DB, MySQL, and SQLite just to name a few. I wanted to challenge myself to learn something new that my classes have not taught, so I chose to implement Firebase Firestore into my final project of the Program. Using my existing database knowledge I was able to sucessfully implement this database type to ensure the final product would have a scalable and live database for users to save their information, store their login credentials, and even upload images to. 
+
+I look forward to what opportunities and challenges this career path will bring. I enjoy challenging myself and learning new ways that I can improve myself and my code during the development process and from collaborating with others. 
+
 <p style="text-align:center;"><b>ePortfolio / My Journal Application</b></p>
 
 **Code Review**
 
-The original version of this application was designed to be a weight tracker with a basic notification system to remind users to log their weight. Each weight log in the app
-also holds data on when the log was added, the weight, and a description. Below is a video describing its original functionality and a code review of the project.
+The original version of this application was designed to be a weight tracker with a basic notification system to remind users to log their weight. Each weight log in the app also holds data on when the log was added, the weight, and a description. Below is a video describing its original functionality and a code review of the project.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0DCGfCQTNR8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -49,5 +58,3 @@ You can see that the Database now stores the username and user ID in the real-ti
 <img style="align:center; display: block;" src="https://i.postimg.cc/sXYHjzV6/firebase-auth.png" width="300" alt="card views"/>
 
 I’ve included this in my ePortfolio as it will showcase an ability to implement a wide variety of features and database usage. I also think that implementing Firebase was a better solution to using local databases as more data can be collected and it makes the application a bit more scalable. Eventually, this database could also be used in an iOS or web based version of the same application.
-
-
